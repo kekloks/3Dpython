@@ -1,6 +1,6 @@
 use <battery.scad>
 use <new.scad>
-translate([30,36.1,10])
+translate([30,36.1,20])
 rotate([0,0,180])
 table();
 import("flexbatter18650x2.stl", convexity=10);
